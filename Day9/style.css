@@ -1,0 +1,15 @@
+body{
+    background-color: yellow;
+}
+
+h1{
+    background-color: blue;
+    color: red;
+    width: 75px;
+}
+
+p{
+    background-color: black;
+    color: white;
+    width: 200px;
+}

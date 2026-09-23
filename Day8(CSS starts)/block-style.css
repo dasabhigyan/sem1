@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+}
+
+.inner-box{
+    background-color: aqua;
+}
+
+span{
+    background-color: black;
+    color: yellow;
+}
