@@ -5,11 +5,15 @@ body{
 h1{
     background-color: blue;
     color: red;
-    width: 75px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 p{
     background-color: black;
     color: white;
-    width: 200px;
+    width: 300px;
+    padding: 20px;
+    box-sizing: content-box;
 }
