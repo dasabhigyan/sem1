@@ -1,0 +1,17 @@
+p{
+    color: blue;
+    /* text-decoration: red underline line-through ; */
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+#p2{
+    color: red;
+    font-family: Georgia, serif;
+}

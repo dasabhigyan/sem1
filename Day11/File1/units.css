@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.item-1{
+    height: 400px;
+    width: 400px;
+    background-color: orange;
+}
+
+.item-2{
+    height: 400px;
+    width: 60%;
+    background-color: blue;
+}
+
+.item-3{
+    height: 400px;
+    width: 60vw;
+    background-color: green;
+}
