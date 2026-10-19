@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+}
+
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+button{
+    color: white;
+    background-color: navy;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 1px solid white;
+    /* new in this session */
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover{
+    scale: 1.1;
+}
+
+button:active{
+    scale: 0.8;
+}
+
+nav{
+    display: flex;
+    gap: 16px;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 30px;
+    left: 35%%;
+
+    border: solid 1px saddlebrown;
+    padding: 12px;
+    border-radius: 12px;
+    background-color: lightblue;
+    display: none;
+}
+
+
+
+nav:hover .menu{
+    display: block;
+}
+
+
+
+
+
+@media(width<768px){
+    nav{
+        display: none;
+    }
+    p{
+        font-size: 24px;
+    }
+
+    button{
+        font-size: 16px;
+    }
+}
